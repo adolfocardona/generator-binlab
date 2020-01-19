@@ -1,6 +1,6 @@
 {
   "name": "generator-binlab",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "generator-meanjs version 0.6.0",
   "main": "app/index.js",
   "repository": {
