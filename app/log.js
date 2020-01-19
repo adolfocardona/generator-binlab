@@ -1,6 +1,6 @@
-"use strict";
+'use strict';
 
-var chalk = require("chalk");
+var chalk = require('chalk');
 
 var log = function log(value) {
   console.log(value);
