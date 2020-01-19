@@ -1,6 +1,6 @@
 {
   "name": "generator-binlab",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "generator-meanjs version 0.6.0",
   "main": "app/index.js",
   "repository": {
@@ -34,37 +34,30 @@
   "files": [
     "generators"
   ],
+  "engines": {
+    "node": ">=0.12.0",
+    "npm": ">=2.0.0"
+  },
   "dependencies": {
     "bluebird": "~3.0.6",
-    "chalk": "^2.1.0",
+    "chalk": "~1.1.1",
     "ejs": "~2.3.4",
     "html-wiring": "~1.2.0",
-    "lodash": "^4.17.15",
+    "lodash": "~4.0.0",
     "mkdirp": "~0.5.1",
     "rimraf": "~2.5.0",
     "underscore.inflections": "~0.2.1",
-    "underscore.string": "^3.3.5",
-    "yeoman-generator": "^2.0.1",
-    "yosay": "^2.0.1"
+    "underscore.string": "~3.2.2",
+    "yeoman-generator": "~0.21.1",
+    "yo": "~1.5.0"
   },
   "devDependencies": {
-    "coveralls": "^3.0.7",
-    "eslint": "^6.6.0",
-    "eslint-config-prettier": "^6.6.0",
-    "eslint-config-xo": "^0.27.2",
-    "eslint-plugin-prettier": "^3.1.1",
     "gulp": "https://github.com/gulpjs/gulp.git#d8f5c90a0622d19ef1943a2a3d02dc50e3c853e7",
-    "gulp-eslint": "^4.0.2",
-    "gulp-jshint": "^2.1.0",
-    "gulp-mocha": "^7.0.2",
-    "husky": "^3.0.9",
-    "jest": "^24.8.0",
-    "lint-staged": "^9.4.3",
-    "mocha": "^7.0.0",
-    "prettier": "^1.19.1",
-    "temp": "~0.8.3",
-    "yeoman-assert": "^3.1.0",
-    "yeoman-test": "^1.7.0"
+    "gulp-eslint": "~1.1.0",
+    "gulp-jshint": "~1.12.0",
+    "gulp-mocha": "~2.2.0",
+    "mocha": "~2.3.4",
+    "temp": "~0.8.3"
   },
   "jest": {
     "testEnvironment": "node"
@@ -101,7 +94,6 @@
     ]
   },
   "scripts": {
-    "pretest": "eslint .",
-    "test": "jest"
+    "test": "gulp test"
   }
 }
