@@ -16,8 +16,13 @@
     "url": "https://github.com/adolfocardona/generator-binlab/issues"
   },
   "homepage": "https://github.com/adolfocardona/generator-binlab#readme",
-  "keywords":["yeoman-generator"],
+  "keywords": [
+    "yeoman-generator"
+  ],
   "files": [
     "generators"
-  ]
+  ],
+  "dependencies": {
+    "yeoman-generator": "^4.4.0"
+  }
 }
